@@ -1,0 +1,199 @@
+/* HEADER */
+/*.banner_heading {*/
+/*    color: #ffffff;*/
+/*}*/
+
+/*@media (max-width: 767px) {*/
+/*    header {*/
+/*        height: 100%;*/
+/*        min-height: 200px;*/
+/*    }*/
+/*    header video {*/
+/*        max-width: 150%;*/
+/*        top: 190px;*/
+/*    }*/
+/*    .banner_heading {*/
+/*        font-size: 25px;*/
+/*        padding-top: 100px;*/
+/*    }*/
+/*    .sub-heading {*/
+/*        font-size: 16px;*/
+/*    }*/
+/*    .btn-head {*/
+/*        font-size: 10px;*/
+/*        padding: 10px 15px;*/
+/*        margin-top: 15px;*/
+/*        margin-bottom: 15px;*/
+/*    }*/
+/*}*/
+
+/*@media (max-width: 319px) {*/
+/*    header {*/
+/*        min-height: 100px;*/
+/*    }*/
+/*    header video {*/
+/*        max-width: 190%;*/
+/*        top: 150px;*/
+/*    }*/
+/*    .banner_heading {*/
+/*        font-size: 18px;*/
+/*        padding-top: 75px;*/
+/*    }*/
+/*    .sub-heading {*/
+/*        font-size: 13px;*/
+/*    }*/
+/*    .btn-head {*/
+/*        font-size: 8px;*/
+/*        padding: 8px 10px;*/
+/*        margin-top: 5px;*/
+/*        margin-bottom: 5px;*/
+/*    }*/
+/*}*/
+
+
+/* Page Section */
+/*.page-section {*/
+/*    border-top: 1px solid #ced4da;*/
+/*}*/
+/*.page-section:last-of-type {*/
+/*    border-bottom: 1px solid #ced4da;*/
+/*}*/
+
+/* Upcoming Classes Section */
+/*#lessons .typeform-share {*/
+/*    display: table !important;*/
+    /*margin: auto !important;*/
+/*}*/
+
+/*#lessons .uk-child-width-auto>*{*/
+/*    width: 100%;*/
+/*}*/
+
+/*#lessons .uk-subnav {*/
+/*    justify-content: center;*/
+/*}*/
+
+/*#lessons .class-less {*/
+/*    margin-top: 20px;*/
+/*}*/
+
+
+/*Adding line to have container effect for line */
+/*.page-section::before,*/
+/*.page-section:last-of-type::after {*/
+/* border-top: 1px solid #ced4da; */
+/*content: "";*/
+/*display: block;*/
+/*width:80%;*/
+/*height: 1px;*/
+/*background-color: #ced4da;*/
+/*margin: auto;*/
+/*position: absolute;*/
+/*top: 0;*/
+/*left: 10%;*/
+/*}*/
+/*.page-section:last-of-type::after {*/
+/*top: unset;*/
+/*bottom: 0;*/
+/*}*/
+/*Adding new lines below to cut extra lines*/
+/*#edge.page-section::before,*/
+/*#edge.page-section:last-of-type::after {*/
+/*display: none;*/
+/*}*/
+
+/* HEADER */
+.banner_heading {
+    color: #ffffff;
+}
+
+@media (max-width: 767px) {
+    header {
+        height: 100%;
+        min-height: 200px;
+    }
+    header video {
+        max-width: 150%;
+        top: 190px;
+    }
+    .banner_heading {
+        font-size: 25px;
+        padding-top: 100px;
+    }
+    .sub-heading {
+        font-size: 16px;
+    }
+    .btn-head {
+        font-size: 10px;
+        padding: 10px 15px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 319px) {
+    header {
+        min-height: 100px;
+    }
+    header video {
+        max-width: 190%;
+        top: 150px;
+    }
+    .banner_heading {
+        font-size: 18px;
+        padding-top: 75px;
+    }
+    .sub-heading {
+        font-size: 13px;
+    }
+    .btn-head {
+        font-size: 8px;
+        padding: 8px 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+}
+
+
+/* Page Section */
+.page-section {
+    position: relative;
+}
+.page-section::before, 
+.page-section:last-of-type::after {
+    /* border-top: 1px solid #ced4da; */
+    content: "";
+    display: block;
+    width:80%;
+    height: 1px;
+    background-color: #ced4da;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 10%;
+}
+.page-section:last-of-type::after {
+    top: unset;
+    bottom: 0;
+}
+#edge.page-section::before, 
+#edge.page-section:last-of-type::after {
+    display: none;
+}
+/* Upcoming Classes Section */
+#lessons .typeform-share {
+    display: table !important;
+    margin: auto !important;
+}
+
+#lessons .uk-child-width-auto>*{
+    width: 100%;
+}
+
+#lessons .uk-subnav {
+    justify-content: center;
+}
+
+#lessons .class-less {
+    margin-top: 20px;
+}
